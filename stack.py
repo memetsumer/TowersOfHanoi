@@ -39,6 +39,10 @@ class Stack:
     def get_size(self):
         return self.size
 
+    def empty_stack(self):
+        for i in range(self.get_size()):
+            self.pop()
+
     def get_name(self):
         return self.name
 
